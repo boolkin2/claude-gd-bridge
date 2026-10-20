@@ -1,0 +1,2477 @@
+{
+ "id": 81086394,
+ "name": "Bloodbath StartPos",
+ "creator": "PositionSwitch",
+ "objects": 24757,
+ "gameplay_objects": 10208,
+ "trigger_objects": 707,
+ "length_s": 111.3,
+ "start": {
+  "mode": "ship",
+  "speed": 1,
+  "mini": false,
+  "dual": false,
+  "flip": false
+ },
+ "sections": [
+  {
+   "i": 0,
+   "mode": "ship",
+   "speed": 1,
+   "mini": false,
+   "dual": false,
+   "t0": 0.0,
+   "t1": 1.97,
+   "dur": 1.97,
+   "x0": 0.0,
+   "x1": 615.0,
+   "hazards": 23,
+   "solids": 12,
+   "slopes": 0,
+   "hazards_per_s": 11.7,
+   "solids_per_s": 6.1,
+   "orbs": {},
+   "pads": {},
+   "gravity_portals": 0,
+   "teleports": 0,
+   "triggers": {
+    "alpha": 1,
+    "other": 1,
+    "color": 1
+   },
+   "gap_median": null,
+   "gap_p10": null,
+   "click_objects": 0,
+   "click_ioi_median": null,
+   "y_range": [
+    10.0,
+    121.0
+   ]
+  },
+  {
+   "i": 1,
+   "mode": "ship",
+   "speed": 0.5,
+   "mini": false,
+   "dual": false,
+   "t0": 1.97,
+   "t1": 3.41,
+   "dur": 1.43,
+   "x0": 615.0,
+   "x1": 975.0,
+   "hazards": 24,
+   "solids": 25,
+   "slopes": 0,
+   "hazards_per_s": 16.7,
+   "solids_per_s": 17.4,
+   "orbs": {},
+   "pads": {},
+   "gravity_portals": 0,
+   "teleports": 0,
+   "triggers": {
+    "other": 2,
+    "color": 1
+   },
+   "gap_median": 120.0,
+   "gap_p10": 90.0,
+   "click_objects": 0,
+   "click_ioi_median": null,
+   "y_range": [
+    10.0,
+    315.0
+   ]
+  },
+  {
+   "i": 2,
+   "mode": "ship",
+   "speed": 1,
+   "mini": false,
+   "dual": false,
+   "t0": 3.41,
+   "t1": 3.5,
+   "dur": 0.1,
+   "x0": 975.0,
+   "x1": 1005.0,
+   "hazards": 2,
+   "solids": 1,
+   "slopes": 0,
+   "hazards_per_s": 20.8,
+   "solids_per_s": 10.4,
+   "orbs": {
+    "yellow": 1
+   },
+   "pads": {},
+   "gravity_portals": 0,
+   "teleports": 0,
+   "triggers": {},
+   "gap_median": null,
+   "gap_p10": null,
+   "click_objects": 1,
+   "click_ioi_median": null,
+   "y_range": [
+    15.0,
+    331.0
+   ]
+  },
+  {
+   "i": 3,
+   "mode": "cube",
+   "speed": 1,
+   "mini": false,
+   "dual": false,
+   "t0": 3.5,
+   "t1": 4.08,
+   "dur": 0.58,
+   "x0": 1005.0,
+   "x1": 1185.0,
+   "hazards": 12,
+   "solids": 13,
+   "slopes": 0,
+   "hazards_per_s": 20.8,
+   "solids_per_s": 22.5,
+   "orbs": {
+    "yellow": 1
+   },
+   "pads": {},
+   "gravity_portals": 1,
+   "teleports": 0,
+   "triggers": {
+    "other": 2
+   },
+   "gap_median": 330.0,
+   "gap_p10": 270.0,
+   "click_objects": 1,
+   "click_ioi_median": null,
+   "y_range": [
+    15.0,
+    481.0
+   ]
+  },
+  {
+   "i": 4,
+   "mode": "cube",
+   "speed": 2,
+   "mini": true,
+   "dual": false,
+   "t0": 4.08,
+   "t1": 4.55,
+   "dur": 0.46,
+   "x0": 1185.0,
+   "x1": 1365.0,
+   "hazards": 13,
+   "solids": 18,
+   "slopes": 0,
+   "hazards_per_s": 28.0,
+   "solids_per_s": 38.7,
+   "orbs": {
+    "blue": 1
+   },
+   "pads": {},
+   "gravity_portals": 0,
+   "teleports": 0,
+   "triggers": {
+    "other": 2
+   },
+   "gap_median": 210.0,
+   "gap_p10": 120.0,
+   "click_objects": 1,
+   "click_ioi_median": null,
+   "y_range": [
+    89.0,
+    481.0
+   ]
+  },
+  {
+   "i": 5,
+   "mode": "cube",
+   "speed": 3,
+   "mini": true,
+   "dual": false,
+   "t0": 4.55,
+   "t1": 4.64,
+   "dur": 0.1,
+   "x0": 1365.0,
+   "x1": 1411.0,
+   "hazards": 0,
+   "solids": 3,
+   "slopes": 0,
+   "hazards_per_s": 0.0,
+   "solids_per_s": 30.5,
+   "orbs": {},
+   "pads": {
+    "blue": 4
+   },
+   "gravity_portals": 0,
+   "teleports": 0,
+   "triggers": {},
+   "gap_median": 30.0,
+   "gap_p10": 30.0,
+   "click_objects": 4,
+   "click_ioi_median": 0.064,
+   "y_range": [
+    119.0,
+    151.0
+   ]
+  },
+  {
+   "i": 6,
+   "mode": "cube",
+   "speed": 0.5,
+   "mini": true,
+   "dual": false,
+   "t0": 4.64,
+   "t1": 4.82,
+   "dur": 0.18,
+   "x0": 1411.0,
+   "x1": 1455.0,
+   "hazards": 0,
+   "solids": 2,
+   "slopes": 0,
+   "hazards_per_s": 0.0,
+   "solids_per_s": 11.4,
+   "orbs": {},
+   "pads": {
+    "blue": 2
+   },
+   "gravity_portals": 0,
+   "teleports": 0,
+   "triggers": {},
+   "gap_median": 30.0,
+   "gap_p10": 30.0,
+   "click_objects": 2,
+   "click_ioi_median": null,
+   "y_range": [
+    119.0,
+    151.0
+   ]
+  },
+  {
+   "i": 7,
+   "mode": "cube",
+   "speed": 3,
+   "mini": true,
+   "dual": false,
+   "t0": 4.82,
+   "t1": 4.93,
+   "dur": 0.11,
+   "x0": 1455.0,
+   "x1": 1505.0,
+   "hazards": 0,
+   "solids": 16,
+   "slopes": 0,
+   "hazards_per_s": 0.0,
+   "solids_per_s": 149.8,
+   "orbs": {},
+   "pads": {
+    "blue": 4
+   },
+   "gravity_portals": 0,
+   "teleports": 0,
+   "triggers": {
+    "other": 4
+   },
+   "gap_median": 30.0,
+   "gap_p10": 30.0,
+   "click_objects": 4,
+   "click_ioi_median": 0.064,
+   "y_range": [
+    15.0,
+    405.0
+   ]
+  },
+  {
+   "i": 8,
+   "mode": "ship",
+   "speed": 3,
+   "mini": false,
+   "dual": false,
+   "t0": 4.93,
+   "t1": 5.65,
+   "dur": 0.73,
+   "x0": 1505.0,
+   "x1": 1845.0,
+   "hazards": 50,
+   "solids": 91,
+   "slopes": 16,
+   "hazards_per_s": 68.8,
+   "solids_per_s": 147.3,
+   "orbs": {},
+   "pads": {},
+   "gravity_portals": 1,
+   "teleports": 0,
+   "triggers": {
+    "other": 14,
+    "color": 2
+   },
+   "gap_median": 183.5,
+   "gap_p10": 134.0,
+   "click_objects": 0,
+   "click_ioi_median": null,
+   "y_range": [
+    1.0,
+    465.0
+   ]
+  },
+  {
+   "i": 9,
+   "mode": "ship",
+   "speed": 0.5,
+   "mini": false,
+   "dual": false,
+   "t0": 5.65,
+   "t1": 5.89,
+   "dur": 0.24,
+   "x0": 1845.0,
+   "x1": 1905.0,
+   "hazards": 12,
+   "solids": 14,
+   "slopes": 0,
+   "hazards_per_s": 50.2,
+   "solids_per_s": 58.6,
+   "orbs": {},
+   "pads": {},
+   "gravity_portals": 1,
+   "teleports": 0,
+   "triggers": {
+    "other": 3
+   },
+   "gap_median": null,
+   "gap_p10": null,
+   "click_objects": 0,
+   "click_ioi_median": null,
+   "y_range": [
+    1.0,
+    464.0
+   ]
+  },
+  {
+   "i": 10,
+   "mode": "ship",
+   "speed": 3,
+   "mini": false,
+   "dual": false,
+   "t0": 5.89,
+   "t1": 6.98,
+   "dur": 1.09,
+   "x0": 1905.0,
+   "x1": 2415.0,
+   "hazards": 86,
+   "solids": 63,
+   "slopes": 16,
+   "hazards_per_s": 78.9,
+   "solids_per_s": 72.5,
+   "orbs": {},
+   "pads": {},
+   "gravity_portals": 0,
+   "teleports": 0,
+   "triggers": {
+    "other": 21,
+    "color": 3
+   },
+   "gap_median": 186.5,
+   "gap_p10": 156.5,
+   "click_objects": 0,
+   "click_ioi_median": null,
+   "y_range": [
+    1.0,
+    465.0
+   ]
+  },
+  {
+   "i": 11,
+   "mode": "ship",
+   "speed": 3,
+   "mini": true,
+   "dual": false,
+   "t0": 6.98,
+   "t1": 7.69,
+   "dur": 0.71,
+   "x0": 2415.0,
+   "x1": 2745.0,
+   "hazards": 31,
+   "solids": 42,
+   "slopes": 17,
+   "hazards_per_s": 44.0,
+   "solids_per_s": 83.7,
+   "orbs": {},
+   "pads": {
+    "blue": 3
+   },
+   "gravity_portals": 1,
+   "teleports": 0,
+   "triggers": {
+    "other": 14,
+    "color": 3
+   },
+   "gap_median": 156.5,
+   "gap_p10": 58.0,
+   "click_objects": 3,
+   "click_ioi_median": 0.064,
+   "y_range": [
+    1.0,
+    299.0
+   ]
+  },
+  {
+   "i": 12,
+   "mode": "ship",
+   "speed": 0.5,
+   "mini": false,
+   "dual": false,
+   "t0": 7.69,
+   "t1": 8.04,
+   "dur": 0.36,
+   "x0": 2745.0,
+   "x1": 2835.0,
+   "hazards": 14,
+   "solids": 3,
+   "slopes": 2,
+   "hazards_per_s": 39.1,
+   "solids_per_s": 14.0,
+   "orbs": {},
+   "pads": {},
+   "gravity_portals": 0,
+   "teleports": 0,
+   "triggers": {
+    "other": 5,
+    "color": 3
+   },
+   "gap_median": 210.0,
+   "gap_p10": 210.0,
+   "click_objects": 0,
+   "click_ioi_median": null,
+   "y_range": [
+    1.0,
+    285.0
+   ]
+  },
+  {
+   "i": 13,
+   "mode": "ball",
+   "speed": 3,
+   "mini": true,
+   "dual": false,
+   "t0": 8.04,
+   "t1": 10.25,
+   "dur": 2.21,
+   "x0": 2835.0,
+   "x1": 3855.0,
+   "hazards": 62,
+   "solids": 233,
+   "slopes": 3,
+   "hazards_per_s": 28.1,
+   "solids_per_s": 106.8,
+   "orbs": {
+    "yellow": 1
+   },
+   "pads": {
+    "blue": 1
+   },
+   "gravity_portals": 1,
+   "teleports": 0,
+   "triggers": {
+    "other": 43,
+    "color": 6
+   },
+   "gap_median": 90.0,
+   "gap_p10": 54.0,
+   "click_objects": 2,
+   "click_ioi_median": 0.897,
+   "y_range": [
+    1.0,
+    465.0
+   ]
+  },
+  {
+   "i": 14,
+   "mode": "ball",
+   "speed": 0.5,
+   "mini": true,
+   "dual": false,
+   "t0": 10.25,
+   "t1": 10.85,
+   "dur": 0.6,
+   "x0": 3855.0,
+   "x1": 4005.0,
+   "hazards": 10,
+   "solids": 45,
+   "slopes": 3,
+   "hazards_per_s": 16.7,
+   "solids_per_s": 80.4,
+   "orbs": {},
+   "pads": {
+    "yellow": 1
+   },
+   "gravity_portals": 0,
+   "teleports": 0,
+   "triggers": {
+    "other": 13,
+    "color": 1
+   },
+   "gap_median": 114.0,
+   "gap_p10": 85.0,
+   "click_objects": 1,
+   "click_ioi_median": null,
+   "y_range": [
+    1.0,
+    495.0
+   ]
+  },
+  {
+   "i": 15,
+   "mode": "cube",
+   "speed": 3,
+   "mini": true,
+   "dual": false,
+   "t0": 10.85,
+   "t1": 11.11,
+   "dur": 0.26,
+   "x0": 4005.0,
+   "x1": 4125.0,
+   "hazards": 1,
+   "solids": 34,
+   "slopes": 5,
+   "hazards_per_s": 3.9,
+   "solids_per_s": 152.1,
+   "orbs": {},
+   "pads": {},
+   "gravity_portals": 0,
+   "teleports": 0,
+   "triggers": {
+    "other": 7
+   },
+   "gap_median": 228.8,
+   "gap_p10": 191.2,
+   "click_objects": 0,
+   "click_ioi_median": null,
+   "y_range": [
+    15.0,
+    495.0
+   ]
+  },
+  {
+   "i": 16,
+   "mode": "ship",
+   "speed": 3,
+   "mini": true,
+   "dual": false,
+   "t0": 11.11,
+   "t1": 17.06,
+   "dur": 5.95,
+   "x0": 4125.0,
+   "x1": 6909.0,
+   "hazards": 81,
+   "solids": 609,
+   "slopes": 57,
+   "hazards_per_s": 13.6,
+   "solids_per_s": 112.0,
+   "orbs": {},
+   "pads": {},
+   "gravity_portals": 3,
+   "teleports": 0,
+   "triggers": {
+    "other": 26,
+    "color": 1
+   },
+   "gap_median": 127.5,
+   "gap_p10": 90.0,
+   "click_objects": 0,
+   "click_ioi_median": null,
+   "y_range": [
+    15.0,
+    501.0
+   ]
+  },
+  {
+   "i": 17,
+   "mode": "ball",
+   "speed": 0.5,
+   "mini": false,
+   "dual": false,
+   "t0": 17.06,
+   "t1": 28.91,
+   "dur": 11.85,
+   "x0": 6909.0,
+   "x1": 9885.0,
+   "hazards": 229,
+   "solids": 250,
+   "slopes": 0,
+   "hazards_per_s": 19.3,
+   "solids_per_s": 21.1,
+   "orbs": {},
+   "pads": {
+    "pink": 1
+   },
+   "gravity_portals": 24,
+   "teleports": 0,
+   "triggers": {
+    "other": 54,
+    "color": 137
+   },
+   "gap_median": 150.0,
+   "gap_p10": 69.0,
+   "click_objects": 1,
+   "click_ioi_median": null,
+   "y_range": [
+    161.0,
+    557.0
+   ]
+  },
+  {
+   "i": 18,
+   "mode": "cube",
+   "speed": 1,
+   "mini": false,
+   "dual": false,
+   "t0": 28.91,
+   "t1": 31.12,
+   "dur": 2.22,
+   "x0": 9885.0,
+   "x1": 10575.0,
+   "hazards": 58,
+   "solids": 244,
+   "slopes": 0,
+   "hazards_per_s": 26.2,
+   "solids_per_s": 110.0,
+   "orbs": {},
+   "pads": {
+    "blue": 2
+   },
+   "gravity_portals": 0,
+   "teleports": 0,
+   "triggers": {
+    "other": 3,
+    "color": 16
+   },
+   "gap_median": 90.0,
+   "gap_p10": 90.0,
+   "click_objects": 2,
+   "click_ioi_median": 0.578,
+   "y_range": [
+    162.0,
+    558.0
+   ]
+  },
+  {
+   "i": 19,
+   "mode": "ship",
+   "speed": 1,
+   "mini": false,
+   "dual": false,
+   "t0": 31.12,
+   "t1": 32.47,
+   "dur": 1.35,
+   "x0": 10575.0,
+   "x1": 10995.0,
+   "hazards": 80,
+   "solids": 163,
+   "slopes": 0,
+   "hazards_per_s": 59.3,
+   "solids_per_s": 120.9,
+   "orbs": {},
+   "pads": {},
+   "gravity_portals": 0,
+   "teleports": 0,
+   "triggers": {
+    "color": 7
+   },
+   "gap_median": 146.0,
+   "gap_p10": 86.0,
+   "click_objects": 0,
+   "click_ioi_median": null,
+   "y_range": [
+    161.0,
+    558.0
+   ]
+  },
+  {
+   "i": 20,
+   "mode": "ball",
+   "speed": 1,
+   "mini": false,
+   "dual": false,
+   "t0": 32.47,
+   "t1": 34.78,
+   "dur": 2.31,
+   "x0": 10995.0,
+   "x1": 11715.0,
+   "hazards": 60,
+   "solids": 251,
+   "slopes": 0,
+   "hazards_per_s": 26.0,
+   "solids_per_s": 108.6,
+   "orbs": {},
+   "pads": {},
+   "gravity_portals": 0,
+   "teleports": 0,
+   "triggers": {
+    "color": 12
+   },
+   "gap_median": 90.0,
+   "gap_p10": 90.0,
+   "click_objects": 0,
+   "click_ioi_median": null,
+   "y_range": [
+    161.0,
+    558.0
+   ]
+  },
+  {
+   "i": 21,
+   "mode": "ufo",
+   "speed": 1,
+   "mini": false,
+   "dual": false,
+   "t0": 34.78,
+   "t1": 36.42,
+   "dur": 1.64,
+   "x0": 11715.0,
+   "x1": 12225.0,
+   "hazards": 78,
+   "solids": 174,
+   "slopes": 0,
+   "hazards_per_s": 47.7,
+   "solids_per_s": 106.3,
+   "orbs": {},
+   "pads": {},
+   "gravity_portals": 0,
+   "teleports": 0,
+   "triggers": {
+    "color": 9
+   },
+   "gap_median": 122.0,
+   "gap_p10": 80.0,
+   "click_objects": 0,
+   "click_ioi_median": null,
+   "y_range": [
+    161.0,
+    558.0
+   ]
+  },
+  {
+   "i": 22,
+   "mode": "cube",
+   "speed": 1,
+   "mini": false,
+   "dual": false,
+   "t0": 36.42,
+   "t1": 38.15,
+   "dur": 1.73,
+   "x0": 12225.0,
+   "x1": 12765.0,
+   "hazards": 54,
+   "solids": 198,
+   "slopes": 0,
+   "hazards_per_s": 31.2,
+   "solids_per_s": 114.2,
+   "orbs": {},
+   "pads": {},
+   "gravity_portals": 0,
+   "teleports": 0,
+   "triggers": {
+    "color": 9
+   },
+   "gap_median": 90.0,
+   "gap_p10": 90.0,
+   "click_objects": 0,
+   "click_ioi_median": null,
+   "y_range": [
+    161.0,
+    557.0
+   ]
+  },
+  {
+   "i": 23,
+   "mode": "wave",
+   "speed": 1,
+   "mini": false,
+   "dual": false,
+   "t0": 38.15,
+   "t1": 39.71,
+   "dur": 1.56,
+   "x0": 12765.0,
+   "x1": 13251.0,
+   "hazards": 89,
+   "solids": 188,
+   "slopes": 0,
+   "hazards_per_s": 57.1,
+   "solids_per_s": 120.5,
+   "orbs": {},
+   "pads": {},
+   "gravity_portals": 0,
+   "teleports": 0,
+   "triggers": {
+    "color": 10,
+    "other": 2
+   },
+   "gap_median": 152.0,
+   "gap_p10": 92.0,
+   "click_objects": 0,
+   "click_ioi_median": null,
+   "y_range": [
+    161.0,
+    558.0
+   ]
+  },
+  {
+   "i": 24,
+   "mode": "cube",
+   "speed": 1,
+   "mini": false,
+   "dual": true,
+   "t0": 39.71,
+   "t1": 40.73,
+   "dur": 1.02,
+   "x0": 13251.0,
+   "x1": 13568.0,
+   "hazards": 31,
+   "solids": 74,
+   "slopes": 2,
+   "hazards_per_s": 30.5,
+   "solids_per_s": 74.7,
+   "orbs": {
+    "pink": 1
+   },
+   "pads": {
+    "pink": 2
+   },
+   "gravity_portals": 1,
+   "teleports": 0,
+   "triggers": {
+    "other": 3
+   },
+   "gap_median": 147.7,
+   "gap_p10": 86.0,
+   "click_objects": 3,
+   "click_ioi_median": 0.193,
+   "y_range": [
+    195.0,
+    525.0
+   ]
+  },
+  {
+   "i": 25,
+   "mode": "ship",
+   "speed": 0.5,
+   "mini": false,
+   "dual": false,
+   "t0": 40.73,
+   "t1": 42.19,
+   "dur": 1.46,
+   "x0": 13568.0,
+   "x1": 13935.0,
+   "hazards": 69,
+   "solids": 21,
+   "slopes": 9,
+   "hazards_per_s": 47.2,
+   "solids_per_s": 20.5,
+   "orbs": {},
+   "pads": {},
+   "gravity_portals": 0,
+   "teleports": 0,
+   "triggers": {
+    "other": 2
+   },
+   "gap_median": 98.7,
+   "gap_p10": 31.6,
+   "click_objects": 0,
+   "click_ioi_median": null,
+   "y_range": [
+    155.0,
+    521.0
+   ]
+  },
+  {
+   "i": 26,
+   "mode": "ship",
+   "speed": 0.5,
+   "mini": true,
+   "dual": false,
+   "t0": 42.19,
+   "t1": 43.61,
+   "dur": 1.42,
+   "x0": 13935.0,
+   "x1": 14292.0,
+   "hazards": 62,
+   "solids": 16,
+   "slopes": 12,
+   "hazards_per_s": 43.6,
+   "solids_per_s": 19.7,
+   "orbs": {},
+   "pads": {},
+   "gravity_portals": 0,
+   "teleports": 0,
+   "triggers": {
+    "other": 2
+   },
+   "gap_median": 116.5,
+   "gap_p10": 87.0,
+   "click_objects": 0,
+   "click_ioi_median": null,
+   "y_range": [
+    154.0,
+    502.0
+   ]
+  },
+  {
+   "i": 27,
+   "mode": "wave",
+   "speed": 0.5,
+   "mini": true,
+   "dual": false,
+   "t0": 43.61,
+   "t1": 45.06,
+   "dur": 1.45,
+   "x0": 14292.0,
+   "x1": 14655.0,
+   "hazards": 65,
+   "solids": 9,
+   "slopes": 2,
+   "hazards_per_s": 45.0,
+   "solids_per_s": 7.6,
+   "orbs": {},
+   "pads": {},
+   "gravity_portals": 0,
+   "teleports": 0,
+   "triggers": {
+    "other": 2
+   },
+   "gap_median": 42.5,
+   "gap_p10": 31.8,
+   "click_objects": 0,
+   "click_ioi_median": null,
+   "y_range": [
+    167.0,
+    508.0
+   ]
+  },
+  {
+   "i": 28,
+   "mode": "wave",
+   "speed": 0.5,
+   "mini": false,
+   "dual": false,
+   "t0": 45.06,
+   "t1": 46.52,
+   "dur": 1.47,
+   "x0": 14655.0,
+   "x1": 15023.0,
+   "hazards": 68,
+   "solids": 25,
+   "slopes": 8,
+   "hazards_per_s": 46.4,
+   "solids_per_s": 22.5,
+   "orbs": {},
+   "pads": {},
+   "gravity_portals": 0,
+   "teleports": 0,
+   "triggers": {
+    "other": 3
+   },
+   "gap_median": 106.2,
+   "gap_p10": 67.0,
+   "click_objects": 0,
+   "click_ioi_median": null,
+   "y_range": [
+    145.0,
+    489.0
+   ]
+  },
+  {
+   "i": 29,
+   "mode": "ufo",
+   "speed": 1,
+   "mini": false,
+   "dual": false,
+   "t0": 46.52,
+   "t1": 49.48,
+   "dur": 2.96,
+   "x0": 15023.0,
+   "x1": 15945.0,
+   "hazards": 139,
+   "solids": 30,
+   "slopes": 11,
+   "hazards_per_s": 47.0,
+   "solids_per_s": 13.9,
+   "orbs": {
+    "pink": 4
+   },
+   "pads": {},
+   "gravity_portals": 3,
+   "teleports": 0,
+   "triggers": {
+    "other": 1
+   },
+   "gap_median": 105.0,
+   "gap_p10": 42.0,
+   "click_objects": 4,
+   "click_ioi_median": 0.963,
+   "y_range": [
+    152.0,
+    515.0
+   ]
+  },
+  {
+   "i": 30,
+   "mode": "ufo",
+   "speed": 0.5,
+   "mini": true,
+   "dual": false,
+   "t0": 49.48,
+   "t1": 52.47,
+   "dur": 2.99,
+   "x0": 15945.0,
+   "x1": 16695.0,
+   "hazards": 114,
+   "solids": 31,
+   "slopes": 19,
+   "hazards_per_s": 38.2,
+   "solids_per_s": 16.7,
+   "orbs": {
+    "pink": 6
+   },
+   "pads": {},
+   "gravity_portals": 1,
+   "teleports": 0,
+   "triggers": {
+    "other": 2
+   },
+   "gap_median": 124.1,
+   "gap_p10": 44.3,
+   "click_objects": 6,
+   "click_ioi_median": 0.119,
+   "y_range": [
+    139.0,
+    505.0
+   ]
+  },
+  {
+   "i": 31,
+   "mode": "ship",
+   "speed": 3,
+   "mini": true,
+   "dual": false,
+   "t0": 52.47,
+   "t1": 54.13,
+   "dur": 1.67,
+   "x0": 16695.0,
+   "x1": 17475.0,
+   "hazards": 40,
+   "solids": 113,
+   "slopes": 14,
+   "hazards_per_s": 24.0,
+   "solids_per_s": 76.2,
+   "orbs": {},
+   "pads": {},
+   "gravity_portals": 1,
+   "teleports": 0,
+   "triggers": {
+    "other": 7,
+    "color": 4
+   },
+   "gap_median": 142.8,
+   "gap_p10": 78.5,
+   "click_objects": 0,
+   "click_ioi_median": null,
+   "y_range": [
+    151.0,
+    495.0
+   ]
+  },
+  {
+   "i": 32,
+   "mode": "ship",
+   "speed": 1,
+   "mini": true,
+   "dual": false,
+   "t0": 54.13,
+   "t1": 55.48,
+   "dur": 1.35,
+   "x0": 17475.0,
+   "x1": 17895.0,
+   "hazards": 26,
+   "solids": 77,
+   "slopes": 4,
+   "hazards_per_s": 19.3,
+   "solids_per_s": 60.1,
+   "orbs": {},
+   "pads": {},
+   "gravity_portals": 0,
+   "teleports": 0,
+   "triggers": {
+    "other": 6,
+    "color": 5
+   },
+   "gap_median": 116.0,
+   "gap_p10": 60.0,
+   "click_objects": 0,
+   "click_ioi_median": null,
+   "y_range": [
+    141.0,
+    465.0
+   ]
+  },
+  {
+   "i": 33,
+   "mode": "ship",
+   "speed": 3,
+   "mini": true,
+   "dual": false,
+   "t0": 55.48,
+   "t1": 57.02,
+   "dur": 1.54,
+   "x0": 17895.0,
+   "x1": 18615.0,
+   "hazards": 50,
+   "solids": 132,
+   "slopes": 2,
+   "hazards_per_s": 32.5,
+   "solids_per_s": 87.1,
+   "orbs": {
+    "yellow": 1
+   },
+   "pads": {},
+   "gravity_portals": 1,
+   "teleports": 0,
+   "triggers": {
+    "other": 4,
+    "color": 1
+   },
+   "gap_median": 120.0,
+   "gap_p10": 60.0,
+   "click_objects": 1,
+   "click_ioi_median": null,
+   "y_range": [
+    159.0,
+    473.0
+   ]
+  },
+  {
+   "i": 34,
+   "mode": "ship",
+   "speed": 1,
+   "mini": true,
+   "dual": false,
+   "t0": 57.02,
+   "t1": 57.57,
+   "dur": 0.55,
+   "x0": 18615.0,
+   "x1": 18785.0,
+   "hazards": 8,
+   "solids": 33,
+   "slopes": 0,
+   "hazards_per_s": 14.7,
+   "solids_per_s": 60.5,
+   "orbs": {},
+   "pads": {},
+   "gravity_portals": 0,
+   "teleports": 0,
+   "triggers": {
+    "other": 2
+   },
+   "gap_median": 60.0,
+   "gap_p10": 60.0,
+   "click_objects": 0,
+   "click_ioi_median": null,
+   "y_range": [
+    165.0,
+    465.0
+   ]
+  },
+  {
+   "i": 35,
+   "mode": "ship",
+   "speed": 2,
+   "mini": true,
+   "dual": false,
+   "t0": 57.57,
+   "t1": 58.37,
+   "dur": 0.8,
+   "x0": 18785.0,
+   "x1": 19095.0,
+   "hazards": 32,
+   "solids": 55,
+   "slopes": 0,
+   "hazards_per_s": 40.0,
+   "solids_per_s": 68.7,
+   "orbs": {},
+   "pads": {},
+   "gravity_portals": 0,
+   "teleports": 0,
+   "triggers": {
+    "other": 3
+   },
+   "gap_median": 60.0,
+   "gap_p10": 60.0,
+   "click_objects": 0,
+   "click_ioi_median": null,
+   "y_range": [
+    165.0,
+    465.0
+   ]
+  },
+  {
+   "i": 36,
+   "mode": "ship",
+   "speed": 3,
+   "mini": true,
+   "dual": false,
+   "t0": 58.37,
+   "t1": 61.35,
+   "dur": 2.99,
+   "x0": 19095.0,
+   "x1": 20493.0,
+   "hazards": 72,
+   "solids": 354,
+   "slopes": 36,
+   "hazards_per_s": 24.1,
+   "solids_per_s": 130.6,
+   "orbs": {},
+   "pads": {},
+   "gravity_portals": 0,
+   "teleports": 0,
+   "triggers": {
+    "color": 4,
+    "other": 4
+   },
+   "gap_median": 121.8,
+   "gap_p10": 76.0,
+   "click_objects": 0,
+   "click_ioi_median": null,
+   "y_range": [
+    75.0,
+    556.0
+   ]
+  },
+  {
+   "i": 37,
+   "mode": "cube",
+   "speed": 0.5,
+   "mini": false,
+   "dual": false,
+   "t0": 61.35,
+   "t1": 62.93,
+   "dur": 1.58,
+   "x0": 20493.0,
+   "x1": 20895.0,
+   "hazards": 49,
+   "solids": 129,
+   "slopes": 0,
+   "hazards_per_s": 31.0,
+   "solids_per_s": 81.7,
+   "orbs": {
+    "yellow": 1,
+    "blue": 1
+   },
+   "pads": {},
+   "gravity_portals": 0,
+   "teleports": 0,
+   "triggers": {
+    "color": 4,
+    "other": 4
+   },
+   "gap_median": 159.0,
+   "gap_p10": 121.0,
+   "click_objects": 2,
+   "click_ioi_median": 0.478,
+   "y_range": [
+    1.0,
+    600.0
+   ]
+  },
+  {
+   "i": 38,
+   "mode": "cube",
+   "speed": 1,
+   "mini": false,
+   "dual": false,
+   "t0": 62.93,
+   "t1": 63.61,
+   "dur": 0.67,
+   "x0": 20895.0,
+   "x1": 21105.0,
+   "hazards": 23,
+   "solids": 37,
+   "slopes": 0,
+   "hazards_per_s": 34.1,
+   "solids_per_s": 54.9,
+   "orbs": {},
+   "pads": {},
+   "gravity_portals": 2,
+   "teleports": 0,
+   "triggers": {
+    "other": 1
+   },
+   "gap_median": 126.0,
+   "gap_p10": 21.5,
+   "click_objects": 0,
+   "click_ioi_median": null,
+   "y_range": [
+    1.0,
+    600.0
+   ]
+  },
+  {
+   "i": 39,
+   "mode": "cube",
+   "speed": 2,
+   "mini": false,
+   "dual": false,
+   "t0": 63.61,
+   "t1": 64.53,
+   "dur": 0.93,
+   "x0": 21105.0,
+   "x1": 21465.0,
+   "hazards": 20,
+   "solids": 38,
+   "slopes": 0,
+   "hazards_per_s": 21.5,
+   "solids_per_s": 40.9,
+   "orbs": {},
+   "pads": {},
+   "gravity_portals": 3,
+   "teleports": 0,
+   "triggers": {
+    "other": 4,
+    "color": 2
+   },
+   "gap_median": 185.5,
+   "gap_p10": 85.5,
+   "click_objects": 0,
+   "click_ioi_median": null,
+   "y_range": [
+    15.0,
+    467.0
+   ]
+  },
+  {
+   "i": 40,
+   "mode": "ufo",
+   "speed": 3,
+   "mini": true,
+   "dual": false,
+   "t0": 64.53,
+   "t1": 65.94,
+   "dur": 1.41,
+   "x0": 21465.0,
+   "x1": 22125.0,
+   "hazards": 122,
+   "solids": 32,
+   "slopes": 0,
+   "hazards_per_s": 86.5,
+   "solids_per_s": 22.7,
+   "orbs": {},
+   "pads": {},
+   "gravity_portals": 1,
+   "teleports": 0,
+   "triggers": {
+    "other": 4,
+    "color": 2
+   },
+   "gap_median": 69.7,
+   "gap_p10": 11.6,
+   "click_objects": 0,
+   "click_ioi_median": null,
+   "y_range": [
+    45.0,
+    495.0
+   ]
+  },
+  {
+   "i": 41,
+   "mode": "ufo",
+   "speed": 2,
+   "mini": true,
+   "dual": false,
+   "t0": 65.94,
+   "t1": 66.56,
+   "dur": 0.62,
+   "x0": 22125.0,
+   "x1": 22365.0,
+   "hazards": 43,
+   "solids": 15,
+   "slopes": 0,
+   "hazards_per_s": 69.4,
+   "solids_per_s": 24.2,
+   "orbs": {},
+   "pads": {},
+   "gravity_portals": 1,
+   "teleports": 0,
+   "triggers": {},
+   "gap_median": 134.7,
+   "gap_p10": 56.1,
+   "click_objects": 0,
+   "click_ioi_median": null,
+   "y_range": [
+    124.0,
+    417.0
+   ]
+  },
+  {
+   "i": 42,
+   "mode": "ufo",
+   "speed": 3,
+   "mini": false,
+   "dual": false,
+   "t0": 66.56,
+   "t1": 67.46,
+   "dur": 0.9,
+   "x0": 22365.0,
+   "x1": 22785.0,
+   "hazards": 82,
+   "solids": 14,
+   "slopes": 0,
+   "hazards_per_s": 91.4,
+   "solids_per_s": 15.6,
+   "orbs": {},
+   "pads": {},
+   "gravity_portals": 0,
+   "teleports": 0,
+   "triggers": {},
+   "gap_median": 89.0,
+   "gap_p10": 65.0,
+   "click_objects": 0,
+   "click_ioi_median": null,
+   "y_range": [
+    124.0,
+    417.0
+   ]
+  },
+  {
+   "i": 43,
+   "mode": "ufo",
+   "speed": 0.5,
+   "mini": false,
+   "dual": false,
+   "t0": 67.46,
+   "t1": 68.3,
+   "dur": 0.84,
+   "x0": 22785.0,
+   "x1": 22995.0,
+   "hazards": 35,
+   "solids": 17,
+   "slopes": 0,
+   "hazards_per_s": 41.9,
+   "solids_per_s": 20.3,
+   "orbs": {},
+   "pads": {},
+   "gravity_portals": 2,
+   "teleports": 0,
+   "triggers": {},
+   "gap_median": 113.1,
+   "gap_p10": 95.1,
+   "click_objects": 0,
+   "click_ioi_median": null,
+   "y_range": [
+    124.0,
+    417.0
+   ]
+  },
+  {
+   "i": 44,
+   "mode": "ufo",
+   "speed": 3,
+   "mini": true,
+   "dual": false,
+   "t0": 68.3,
+   "t1": 70.48,
+   "dur": 2.18,
+   "x0": 22995.0,
+   "x1": 24015.0,
+   "hazards": 234,
+   "solids": 0,
+   "slopes": 0,
+   "hazards_per_s": 107.4,
+   "solids_per_s": 0.0,
+   "orbs": {},
+   "pads": {},
+   "gravity_portals": 0,
+   "teleports": 0,
+   "triggers": {
+    "color": 1,
+    "other": 1
+   },
+   "gap_median": 53.9,
+   "gap_p10": 43.0,
+   "click_objects": 0,
+   "click_ioi_median": null,
+   "y_range": [
+    124.0,
+    417.0
+   ]
+  },
+  {
+   "i": 45,
+   "mode": "ball",
+   "speed": 3,
+   "mini": true,
+   "dual": false,
+   "t0": 70.48,
+   "t1": 75.86,
+   "dur": 5.38,
+   "x0": 24015.0,
+   "x1": 26535.0,
+   "hazards": 280,
+   "solids": 89,
+   "slopes": 0,
+   "hazards_per_s": 52.0,
+   "solids_per_s": 16.5,
+   "orbs": {
+    "pink": 3,
+    "yellow": 4,
+    "blue": 16
+   },
+   "pads": {},
+   "gravity_portals": 1,
+   "teleports": 0,
+   "triggers": {
+    "color": 14,
+    "other": 1
+   },
+   "gap_median": 119.5,
+   "gap_p10": 72.5,
+   "click_objects": 23,
+   "click_ioi_median": 0.186,
+   "y_range": [
+    124.0,
+    417.0
+   ]
+  },
+  {
+   "i": 46,
+   "mode": "cube",
+   "speed": 3,
+   "mini": false,
+   "dual": false,
+   "t0": 75.86,
+   "t1": 78.62,
+   "dur": 2.76,
+   "x0": 26535.0,
+   "x1": 27825.0,
+   "hazards": 0,
+   "solids": 131,
+   "slopes": 1,
+   "hazards_per_s": 0.0,
+   "solids_per_s": 47.9,
+   "orbs": {},
+   "pads": {
+    "blue": 40
+   },
+   "gravity_portals": 0,
+   "teleports": 0,
+   "triggers": {
+    "other": 51
+   },
+   "gap_median": 118.5,
+   "gap_p10": 118.5,
+   "click_objects": 40,
+   "click_ioi_median": 0.064,
+   "y_range": [
+    15.0,
+    495.0
+   ]
+  },
+  {
+   "i": 47,
+   "mode": "cube",
+   "speed": 0.5,
+   "mini": false,
+   "dual": false,
+   "t0": 78.62,
+   "t1": 79.34,
+   "dur": 0.72,
+   "x0": 27825.0,
+   "x1": 28005.0,
+   "hazards": 0,
+   "solids": 12,
+   "slopes": 0,
+   "hazards_per_s": 0.0,
+   "solids_per_s": 16.7,
+   "orbs": {},
+   "pads": {},
+   "gravity_portals": 0,
+   "teleports": 0,
+   "triggers": {
+    "color": 4,
+    "other": 5
+   },
+   "gap_median": 90.0,
+   "gap_p10": 90.0,
+   "click_objects": 0,
+   "click_ioi_median": null,
+   "y_range": [
+    225.0,
+    345.0
+   ]
+  },
+  {
+   "i": 48,
+   "mode": "ufo",
+   "speed": 3,
+   "mini": false,
+   "dual": false,
+   "t0": 79.34,
+   "t1": 82.35,
+   "dur": 3.01,
+   "x0": 28005.0,
+   "x1": 29415.0,
+   "hazards": 126,
+   "solids": 174,
+   "slopes": 18,
+   "hazards_per_s": 41.8,
+   "solids_per_s": 63.7,
+   "orbs": {
+    "blue": 2,
+    "pink": 2,
+    "yellow": 3
+   },
+   "pads": {},
+   "gravity_portals": 4,
+   "teleports": 0,
+   "triggers": {
+    "color": 4,
+    "other": 3
+   },
+   "gap_median": 90.7,
+   "gap_p10": 30.0,
+   "click_objects": 7,
+   "click_ioi_median": 0.355,
+   "y_range": [
+    12.0,
+    495.0
+   ]
+  },
+  {
+   "i": 49,
+   "mode": "ship",
+   "speed": 1,
+   "mini": false,
+   "dual": false,
+   "t0": 82.35,
+   "t1": 85.24,
+   "dur": 2.89,
+   "x0": 29415.0,
+   "x1": 30315.0,
+   "hazards": 30,
+   "solids": 185,
+   "slopes": 54,
+   "hazards_per_s": 10.4,
+   "solids_per_s": 82.7,
+   "orbs": {
+    "yellow": 1,
+    "pink": 1
+   },
+   "pads": {},
+   "gravity_portals": 1,
+   "teleports": 0,
+   "triggers": {
+    "other": 3
+   },
+   "gap_median": 97.3,
+   "gap_p10": 68.0,
+   "click_objects": 2,
+   "click_ioi_median": 0.218,
+   "y_range": [
+    10.0,
+    405.0
+   ]
+  },
+  {
+   "i": 50,
+   "mode": "ship",
+   "speed": 3,
+   "mini": false,
+   "dual": false,
+   "t0": 85.24,
+   "t1": 86.2,
+   "dur": 0.96,
+   "x0": 30315.0,
+   "x1": 30765.0,
+   "hazards": 25,
+   "solids": 102,
+   "slopes": 5,
+   "hazards_per_s": 26.0,
+   "solids_per_s": 111.3,
+   "orbs": {},
+   "pads": {},
+   "gravity_portals": 0,
+   "teleports": 0,
+   "triggers": {
+    "other": 1
+   },
+   "gap_median": 90.0,
+   "gap_p10": 63.8,
+   "click_objects": 0,
+   "click_ioi_median": null,
+   "y_range": [
+    2.0,
+    285.0
+   ]
+  },
+  {
+   "i": 51,
+   "mode": "ufo",
+   "speed": 3,
+   "mini": false,
+   "dual": false,
+   "t0": 86.2,
+   "t1": 86.84,
+   "dur": 0.64,
+   "x0": 30765.0,
+   "x1": 31065.0,
+   "hazards": 7,
+   "solids": 54,
+   "slopes": 7,
+   "hazards_per_s": 10.9,
+   "solids_per_s": 95.2,
+   "orbs": {
+    "blue": 3
+   },
+   "pads": {},
+   "gravity_portals": 0,
+   "teleports": 0,
+   "triggers": {},
+   "gap_median": 120.0,
+   "gap_p10": 111.2,
+   "click_objects": 3,
+   "click_ioi_median": 0.192,
+   "y_range": [
+    15.0,
+    285.0
+   ]
+  },
+  {
+   "i": 52,
+   "mode": "ship",
+   "speed": 3,
+   "mini": false,
+   "dual": false,
+   "t0": 86.84,
+   "t1": 88.18,
+   "dur": 1.34,
+   "x0": 31065.0,
+   "x1": 31691.0,
+   "hazards": 57,
+   "solids": 135,
+   "slopes": 4,
+   "hazards_per_s": 42.6,
+   "solids_per_s": 103.9,
+   "orbs": {
+    "yellow": 1
+   },
+   "pads": {},
+   "gravity_portals": 1,
+   "teleports": 0,
+   "triggers": {
+    "other": 1
+   },
+   "gap_median": 107.2,
+   "gap_p10": 64.2,
+   "click_objects": 1,
+   "click_ioi_median": null,
+   "y_range": [
+    3.0,
+    285.0
+   ]
+  },
+  {
+   "i": 53,
+   "mode": "ball",
+   "speed": 1,
+   "mini": false,
+   "dual": false,
+   "t0": 88.18,
+   "t1": 89.24,
+   "dur": 1.07,
+   "x0": 31691.0,
+   "x1": 32025.0,
+   "hazards": 30,
+   "solids": 36,
+   "slopes": 0,
+   "hazards_per_s": 28.1,
+   "solids_per_s": 33.7,
+   "orbs": {
+    "yellow": 1
+   },
+   "pads": {
+    "blue": 1
+   },
+   "gravity_portals": 0,
+   "teleports": 0,
+   "triggers": {
+    "other": 7,
+    "color": 4
+   },
+   "gap_median": 72.0,
+   "gap_p10": 46.0,
+   "click_objects": 2,
+   "click_ioi_median": 0.674,
+   "y_range": [
+    4.0,
+    285.0
+   ]
+  },
+  {
+   "i": 54,
+   "mode": "ball",
+   "speed": 0.5,
+   "mini": true,
+   "dual": false,
+   "t0": 89.24,
+   "t1": 90.46,
+   "dur": 1.22,
+   "x0": 32025.0,
+   "x1": 32331.0,
+   "hazards": 30,
+   "solids": 15,
+   "slopes": 0,
+   "hazards_per_s": 24.6,
+   "solids_per_s": 12.3,
+   "orbs": {
+    "blue": 2
+   },
+   "pads": {},
+   "gravity_portals": 1,
+   "teleports": 0,
+   "triggers": {
+    "other": 7
+   },
+   "gap_median": 110.0,
+   "gap_p10": 110.0,
+   "click_objects": 2,
+   "click_ioi_median": 0.386,
+   "y_range": [
+    4.0,
+    236.0
+   ]
+  },
+  {
+   "i": 55,
+   "mode": "ball",
+   "speed": 3,
+   "mini": true,
+   "dual": false,
+   "t0": 90.46,
+   "t1": 91.15,
+   "dur": 0.69,
+   "x0": 32331.0,
+   "x1": 32655.0,
+   "hazards": 20,
+   "solids": 23,
+   "slopes": 0,
+   "hazards_per_s": 28.9,
+   "solids_per_s": 33.2,
+   "orbs": {
+    "blue": 4
+   },
+   "pads": {},
+   "gravity_portals": 0,
+   "teleports": 0,
+   "triggers": {
+    "other": 11
+   },
+   "gap_median": 90.0,
+   "gap_p10": 90.0,
+   "click_objects": 4,
+   "click_ioi_median": 0.139,
+   "y_range": [
+    4.0,
+    315.0
+   ]
+  },
+  {
+   "i": 56,
+   "mode": "ufo",
+   "speed": 2,
+   "mini": false,
+   "dual": false,
+   "t0": 91.15,
+   "t1": 92.64,
+   "dur": 1.49,
+   "x0": 32655.0,
+   "x1": 33233.0,
+   "hazards": 40,
+   "solids": 67,
+   "slopes": 0,
+   "hazards_per_s": 26.9,
+   "solids_per_s": 45.0,
+   "orbs": {
+    "pink": 1
+   },
+   "pads": {},
+   "gravity_portals": 4,
+   "teleports": 0,
+   "triggers": {
+    "other": 3
+   },
+   "gap_median": 120.0,
+   "gap_p10": 57.5,
+   "click_objects": 1,
+   "click_ioi_median": null,
+   "y_range": [
+    4.0,
+    315.0
+   ]
+  },
+  {
+   "i": 57,
+   "mode": "ufo",
+   "speed": 3,
+   "mini": false,
+   "dual": false,
+   "t0": 92.64,
+   "t1": 93.33,
+   "dur": 0.69,
+   "x0": 33233.0,
+   "x1": 33555.0,
+   "hazards": 24,
+   "solids": 29,
+   "slopes": 0,
+   "hazards_per_s": 34.9,
+   "solids_per_s": 42.1,
+   "orbs": {},
+   "pads": {},
+   "gravity_portals": 1,
+   "teleports": 0,
+   "triggers": {
+    "other": 3
+   },
+   "gap_median": 121.0,
+   "gap_p10": 99.0,
+   "click_objects": 0,
+   "click_ioi_median": null,
+   "y_range": [
+    4.0,
+    296.0
+   ]
+  },
+  {
+   "i": 58,
+   "mode": "ufo",
+   "speed": 2,
+   "mini": false,
+   "dual": false,
+   "t0": 93.33,
+   "t1": 94.03,
+   "dur": 0.7,
+   "x0": 33555.0,
+   "x1": 33825.0,
+   "hazards": 20,
+   "solids": 27,
+   "slopes": 0,
+   "hazards_per_s": 28.7,
+   "solids_per_s": 38.7,
+   "orbs": {
+    "yellow": 1
+   },
+   "pads": {},
+   "gravity_portals": 1,
+   "teleports": 0,
+   "triggers": {},
+   "gap_median": 120.0,
+   "gap_p10": 64.0,
+   "click_objects": 1,
+   "click_ioi_median": null,
+   "y_range": [
+    4.0,
+    296.0
+   ]
+  },
+  {
+   "i": 59,
+   "mode": "wave",
+   "speed": 0.5,
+   "mini": false,
+   "dual": false,
+   "t0": 94.03,
+   "t1": 97.12,
+   "dur": 3.09,
+   "x0": 33825.0,
+   "x1": 34601.0,
+   "hazards": 133,
+   "solids": 97,
+   "slopes": 0,
+   "hazards_per_s": 43.0,
+   "solids_per_s": 31.4,
+   "orbs": {},
+   "pads": {},
+   "gravity_portals": 0,
+   "teleports": 0,
+   "triggers": {
+    "color": 4,
+    "other": 6
+   },
+   "gap_median": 81.0,
+   "gap_p10": 56.0,
+   "click_objects": 0,
+   "click_ioi_median": null,
+   "y_range": [
+    1.0,
+    298.0
+   ]
+  },
+  {
+   "i": 60,
+   "mode": "cube",
+   "speed": 0.5,
+   "mini": false,
+   "dual": false,
+   "t0": 97.12,
+   "t1": 97.29,
+   "dur": 0.17,
+   "x0": 34601.0,
+   "x1": 34643.0,
+   "hazards": 2,
+   "solids": 3,
+   "slopes": 0,
+   "hazards_per_s": 12.0,
+   "solids_per_s": 17.9,
+   "orbs": {},
+   "pads": {},
+   "gravity_portals": 0,
+   "teleports": 0,
+   "triggers": {},
+   "gap_median": 121.0,
+   "gap_p10": 92.0,
+   "click_objects": 0,
+   "click_ioi_median": null,
+   "y_range": [
+    61.0,
+    224.0
+   ]
+  },
+  {
+   "i": 61,
+   "mode": "ship",
+   "speed": 3,
+   "mini": false,
+   "dual": false,
+   "t0": 97.29,
+   "t1": 98.3,
+   "dur": 1.02,
+   "x0": 34643.0,
+   "x1": 35113.0,
+   "hazards": 103,
+   "solids": 71,
+   "slopes": 0,
+   "hazards_per_s": 101.1,
+   "solids_per_s": 69.7,
+   "orbs": {
+    "yellow": 1
+   },
+   "pads": {},
+   "gravity_portals": 1,
+   "teleports": 0,
+   "triggers": {
+    "other": 3,
+    "color": 9
+   },
+   "gap_median": 103.0,
+   "gap_p10": 90.0,
+   "click_objects": 1,
+   "click_ioi_median": null,
+   "y_range": [
+    1.0,
+    299.0
+   ]
+  },
+  {
+   "i": 62,
+   "mode": "ship",
+   "speed": 3,
+   "mini": true,
+   "dual": false,
+   "t0": 98.3,
+   "t1": 99.14,
+   "dur": 0.84,
+   "x0": 35113.0,
+   "x1": 35505.0,
+   "hazards": 101,
+   "solids": 58,
+   "slopes": 0,
+   "hazards_per_s": 120.6,
+   "solids_per_s": 69.2,
+   "orbs": {
+    "pink": 1,
+    "yellow": 1
+   },
+   "pads": {},
+   "gravity_portals": 2,
+   "teleports": 0,
+   "triggers": {
+    "other": 2,
+    "color": 4
+   },
+   "gap_median": 90.0,
+   "gap_p10": 90.0,
+   "click_objects": 2,
+   "click_ioi_median": 0.628,
+   "y_range": [
+    1.0,
+    299.0
+   ]
+  },
+  {
+   "i": 63,
+   "mode": "ship",
+   "speed": 3,
+   "mini": false,
+   "dual": false,
+   "t0": 99.14,
+   "t1": 100.23,
+   "dur": 1.09,
+   "x0": 35505.0,
+   "x1": 36015.0,
+   "hazards": 127,
+   "solids": 76,
+   "slopes": 2,
+   "hazards_per_s": 116.5,
+   "solids_per_s": 71.6,
+   "orbs": {},
+   "pads": {},
+   "gravity_portals": 1,
+   "teleports": 0,
+   "triggers": {
+    "other": 4,
+    "color": 12
+   },
+   "gap_median": 90.0,
+   "gap_p10": 90.0,
+   "click_objects": 0,
+   "click_ioi_median": null,
+   "y_range": [
+    1.0,
+    299.0
+   ]
+  },
+  {
+   "i": 64,
+   "mode": "cube",
+   "speed": 0.5,
+   "mini": false,
+   "dual": true,
+   "t0": 100.23,
+   "t1": 100.47,
+   "dur": 0.24,
+   "x0": 36015.0,
+   "x1": 36075.0,
+   "hazards": 6,
+   "solids": 4,
+   "slopes": 2,
+   "hazards_per_s": 25.1,
+   "solids_per_s": 25.1,
+   "orbs": {},
+   "pads": {},
+   "gravity_portals": 1,
+   "teleports": 0,
+   "triggers": {
+    "other": 1
+   },
+   "gap_median": 102.0,
+   "gap_p10": 75.0,
+   "click_objects": 0,
+   "click_ioi_median": null,
+   "y_range": [
+    4.0,
+    285.0
+   ]
+  },
+  {
+   "i": 65,
+   "mode": "cube",
+   "speed": 0.5,
+   "mini": true,
+   "dual": true,
+   "t0": 100.47,
+   "t1": 102.14,
+   "dur": 1.67,
+   "x0": 36075.0,
+   "x1": 36495.0,
+   "hazards": 26,
+   "solids": 30,
+   "slopes": 0,
+   "hazards_per_s": 15.5,
+   "solids_per_s": 17.9,
+   "orbs": {
+    "yellow": 1,
+    "pink": 1,
+    "blue": 1
+   },
+   "pads": {
+    "blue": 1
+   },
+   "gravity_portals": 0,
+   "teleports": 0,
+   "triggers": {},
+   "gap_median": 210.0,
+   "gap_p10": 90.0,
+   "click_objects": 4,
+   "click_ioi_median": 0.836,
+   "y_range": [
+    4.0,
+    298.0
+   ]
+  },
+  {
+   "i": 66,
+   "mode": "cube",
+   "speed": 0.5,
+   "mini": true,
+   "dual": false,
+   "t0": 102.14,
+   "t1": 102.62,
+   "dur": 0.48,
+   "x0": 36495.0,
+   "x1": 36615.0,
+   "hazards": 8,
+   "solids": 18,
+   "slopes": 0,
+   "hazards_per_s": 16.7,
+   "solids_per_s": 37.7,
+   "orbs": {},
+   "pads": {
+    "blue": 2
+   },
+   "gravity_portals": 0,
+   "teleports": 0,
+   "triggers": {
+    "other": 4
+   },
+   "gap_median": 60.0,
+   "gap_p10": 60.0,
+   "click_objects": 2,
+   "click_ioi_median": 0.119,
+   "y_range": [
+    4.0,
+    285.0
+   ]
+  },
+  {
+   "i": 67,
+   "mode": "cube",
+   "speed": 0.5,
+   "mini": false,
+   "dual": false,
+   "t0": 102.62,
+   "t1": 103.29,
+   "dur": 0.67,
+   "x0": 36615.0,
+   "x1": 36783.0,
+   "hazards": 11,
+   "solids": 24,
+   "slopes": 0,
+   "hazards_per_s": 16.4,
+   "solids_per_s": 35.9,
+   "orbs": {},
+   "pads": {
+    "blue": 7
+   },
+   "gravity_portals": 0,
+   "teleports": 0,
+   "triggers": {
+    "other": 9
+   },
+   "gap_median": 60.0,
+   "gap_p10": 60.0,
+   "click_objects": 7,
+   "click_ioi_median": 0.119,
+   "y_range": [
+    4.0,
+    285.0
+   ]
+  },
+  {
+   "i": 68,
+   "mode": "ball",
+   "speed": 2,
+   "mini": false,
+   "dual": false,
+   "t0": 103.29,
+   "t1": 103.38,
+   "dur": 0.09,
+   "x0": 36783.0,
+   "x1": 36817.0,
+   "hazards": 0,
+   "solids": 7,
+   "slopes": 0,
+   "hazards_per_s": 0.0,
+   "solids_per_s": 79.8,
+   "orbs": {},
+   "pads": {
+    "blue": 1
+   },
+   "gravity_portals": 0,
+   "teleports": 0,
+   "triggers": {
+    "other": 4,
+    "color": 3
+   },
+   "gap_median": 86.0,
+   "gap_p10": 86.0,
+   "click_objects": 1,
+   "click_ioi_median": null,
+   "y_range": [
+    17.0,
+    283.0
+   ]
+  },
+  {
+   "i": 69,
+   "mode": "ball",
+   "speed": 0.5,
+   "mini": false,
+   "dual": false,
+   "t0": 103.38,
+   "t1": 104.91,
+   "dur": 1.53,
+   "x0": 36817.0,
+   "x1": 37201.0,
+   "hazards": 24,
+   "solids": 61,
+   "slopes": 0,
+   "hazards_per_s": 15.7,
+   "solids_per_s": 39.9,
+   "orbs": {
+    "blue": 1
+   },
+   "pads": {},
+   "gravity_portals": 0,
+   "teleports": 0,
+   "triggers": {},
+   "gap_median": 180.0,
+   "gap_p10": 120.0,
+   "click_objects": 1,
+   "click_ioi_median": null,
+   "y_range": [
+    15.0,
+    315.0
+   ]
+  },
+  {
+   "i": 70,
+   "mode": "ufo",
+   "speed": 0.5,
+   "mini": false,
+   "dual": false,
+   "t0": 104.91,
+   "t1": 105.62,
+   "dur": 0.72,
+   "x0": 37201.0,
+   "x1": 37381.0,
+   "hazards": 13,
+   "solids": 33,
+   "slopes": 0,
+   "hazards_per_s": 18.1,
+   "solids_per_s": 46.0,
+   "orbs": {
+    "blue": 1
+   },
+   "pads": {},
+   "gravity_portals": 0,
+   "teleports": 0,
+   "triggers": {},
+   "gap_median": 220.7,
+   "gap_p10": 90.0,
+   "click_objects": 1,
+   "click_ioi_median": null,
+   "y_range": [
+    15.0,
+    375.0
+   ]
+  },
+  {
+   "i": 71,
+   "mode": "ship",
+   "speed": 0.5,
+   "mini": false,
+   "dual": false,
+   "t0": 105.62,
+   "t1": 106.94,
+   "dur": 1.32,
+   "x0": 37381.0,
+   "x1": 37713.0,
+   "hazards": 34,
+   "solids": 79,
+   "slopes": 0,
+   "hazards_per_s": 25.7,
+   "solids_per_s": 59.8,
+   "orbs": {},
+   "pads": {},
+   "gravity_portals": 1,
+   "teleports": 0,
+   "triggers": {},
+   "gap_median": 210.0,
+   "gap_p10": 92.0,
+   "click_objects": 0,
+   "click_ioi_median": null,
+   "y_range": [
+    15.0,
+    377.0
+   ]
+  },
+  {
+   "i": 72,
+   "mode": "ball",
+   "speed": 0.5,
+   "mini": false,
+   "dual": false,
+   "t0": 106.94,
+   "t1": 111.17,
+   "dur": 4.22,
+   "x0": 37713.0,
+   "x1": 38773.6,
+   "hazards": 93,
+   "solids": 128,
+   "slopes": 0,
+   "hazards_per_s": 22.0,
+   "solids_per_s": 30.3,
+   "orbs": {},
+   "pads": {
+    "blue": 2
+   },
+   "gravity_portals": 0,
+   "teleports": 0,
+   "triggers": {
+    "color": 1
+   },
+   "gap_median": 112.4,
+   "gap_p10": 44.7,
+   "click_objects": 2,
+   "click_ioi_median": 3.647,
+   "y_range": [
+    1.0,
+    377.0
+   ]
+  },
+  {
+   "i": 73,
+   "mode": "cube",
+   "speed": 1,
+   "mini": false,
+   "dual": false,
+   "t0": 111.17,
+   "t1": 111.27,
+   "dur": 0.1,
+   "x0": 38773.6,
+   "x1": 38805.1,
+   "hazards": 0,
+   "solids": 3,
+   "slopes": 0,
+   "hazards_per_s": 0.0,
+   "solids_per_s": 29.7,
+   "orbs": {},
+   "pads": {},
+   "gravity_portals": 0,
+   "teleports": 0,
+   "triggers": {},
+   "gap_median": null,
+   "gap_p10": null,
+   "click_objects": 0,
+   "click_ioi_median": null,
+   "y_range": [
+    15.0,
+    75.0
+   ]
+  }
+ ]
+}

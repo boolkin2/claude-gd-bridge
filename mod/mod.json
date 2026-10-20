@@ -1,0 +1,87 @@
+{
+    "geode": "5.11.2",
+    "gd": {
+        "win": "2.2081"
+    },
+    "id": "claude.bridge",
+    "name": "Claude Bridge",
+    "version": "v1.4.0",
+    "developer": "OneDarkPlay",
+    "description": "Lets Claude build and test levels in the editor via a local bridge (127.0.0.1).",
+    "settings": {
+        "server-title": {
+            "type": "title",
+            "name": "AI bridge"
+        },
+        "server-enabled": {
+            "type": "bool",
+            "default": true,
+            "name": "AI Server",
+            "description": "Allow Claude to control the game through the local bridge (127.0.0.1 only)."
+        },
+        "port": {
+            "type": "int",
+            "default": 47800,
+            "min": 1024,
+            "max": 65535,
+            "name": "Port",
+            "description": "TCP port of the bridge. <cy>Restart the game</c> after changing."
+        },
+        "read-only": {
+            "type": "bool",
+            "default": false,
+            "name": "Read-only mode",
+            "description": "Claude can read levels and run the bot, but cannot change or save anything."
+        },
+        "auto-backup": {
+            "type": "bool",
+            "default": true,
+            "name": "Backup before AI edits",
+            "description": "Save a copy of the level before the first AI change in each editor session (mod save folder / backups)."
+        },
+        "auto-title": {
+            "type": "title",
+            "name": "Auto start"
+        },
+        "auto-start": {
+            "type": "bool",
+            "default": true,
+            "name": "Start Claude on Send",
+            "description": "Pressing <cg>Send to Claude</c> immediately starts Claude in the background (no chat needed). Progress is shown in the Claude panel; <cr>Stop AI</c> cancels."
+        },
+        "claude-command": {
+            "type": "string",
+            "default": "python -P \"D:\\GDRetina\\tools\\start_claude.py\"",
+            "name": "Start command",
+            "description": "Command line that starts the Claude run (hidden window)."
+        },
+        "project-dir": {
+            "type": "string",
+            "default": "D:\\GDRetina",
+            "name": "Project folder",
+            "description": "Working folder for the start command (Claude project with CLAUDE.md and tools)."
+        },
+        "ui-title": {
+            "type": "title",
+            "name": "Interface"
+        },
+        "notifications": {
+            "type": "bool",
+            "default": true,
+            "name": "AI notifications",
+            "description": "Show a small notification when Claude adds, removes or changes objects."
+        },
+        "editor-button": {
+            "type": "bool",
+            "default": true,
+            "name": "AI button in editor",
+            "description": "Show the AI button (Claude panel) in the level editor."
+        },
+        "block-autopause": {
+            "type": "bool",
+            "default": true,
+            "name": "No auto-pause in bot runs",
+            "description": "Do not pause the level when the window loses focus while Claude's bot is playing."
+        }
+    }
+}
